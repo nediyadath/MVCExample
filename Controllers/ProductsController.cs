@@ -1,4 +1,5 @@
-﻿using MVCExample.Models;
+﻿using MVCExample.DAL;
+using MVCExample.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,22 +10,26 @@ namespace MVCExample.Controllers
 {
     public class ProductsController : Controller
     {
+        CRUD cr = new CRUD();
+        //ado dot net, Entity Framework code first, Entity framework database first
         // GET: Products
         public ActionResult Index()
         {
-            List<Product> plist = new List<Product>();
-            Product p = new Product();
-            p.id = 101;
-            p.name = "Microwave Oven";
-            p.desc = "40 ltr capacity";
-            Product p1 = new Product();
-            p1.id = 102;
-            p1.name = "Fridge";
-            p1.desc = "4000 ltr capacity";
-            plist.Add(p);
-            plist.Add(p1);
-
-            return View(plist);
+            return View(cr.FetchProducts());
         }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Product p, FormCollection fc)
+        {
+            TempData["message"] = cr.InsertProduct(p);
+            return RedirectToAction("index");
+        }
+
     }
 }
