@@ -1,6 +1,10 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
+@if (HttpContext.Current.User.IsInRole("admin"))
+{
+@Html.Partial("admin")
+}
 @Session["Val"]
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>

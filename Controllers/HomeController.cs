@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace MVCExample.Controllers
 {
+   
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -36,6 +37,7 @@ namespace MVCExample.Controllers
             return View();
         }
 
+        [Authorize(Roles ="admin")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
