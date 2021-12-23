@@ -101,8 +101,14 @@ C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\bin\Microsoft.Owin.Secur
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.AssemblyReference.cache
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.dll
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.AssemblyReference.cache
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.InitialCreate.resources
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.GenerateResource.cache
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.firstmig.resources
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.secondtmig.resources
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.discountscheme.resources
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.discountschemechange.resources

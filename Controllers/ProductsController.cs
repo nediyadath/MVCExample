@@ -58,5 +58,12 @@ namespace MVCExample.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public ActionResult Details(int id)
+        {
+            Product p = cr.GetProduct(id);
+            return View(p);
+        }
+
+
     }
 }
