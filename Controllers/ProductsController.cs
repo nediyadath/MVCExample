@@ -27,8 +27,35 @@ namespace MVCExample.Controllers
         [HttpPost]
         public ActionResult Create(Product p, FormCollection fc)
         {
+            string address = fc["txtAddress1"].ToString(); //
+            string add = Request.Form["txtAddress2"].ToString();
             TempData["message"] = cr.InsertProduct(p);
             return RedirectToAction("index");
+        }
+
+        public ActionResult Edit(int id)
+        {
+            Product p = cr.GetProduct(id);
+            return View(p);
+        }
+        [HttpPost]
+        public ActionResult Edit(Product p)
+        {
+            TempData["message"] = cr.EditProduct(p);
+            return RedirectToAction("index");
+        }
+
+        public ActionResult Delete(int id)
+        {
+            Product p = cr.GetProduct(id);
+            return View(p);
+        }
+        [HttpPost]
+        [ActionName("Delete")]
+        public ActionResult DeletePost(int id)
+        {
+            TempData["message"] = cr.DeleteRecord(id);
+            return RedirectToAction(nameof(Index));
         }
 
     }
