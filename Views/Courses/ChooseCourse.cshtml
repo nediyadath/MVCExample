@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MVCExample.Models.Course>
+
+@{
+    ViewBag.Title = "ChooseCourse";
+}
+
+<h2>ChooseCourse</h2>
+@ViewBag.choice
+@using (Html.BeginForm()) {
+@Html.EditorForModel()
+<input type="submit" value="Submit" />
+}

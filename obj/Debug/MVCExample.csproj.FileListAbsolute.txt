@@ -112,3 +112,4 @@ C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Mig
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.secondtmig.resources
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.discountscheme.resources
 C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.discountschemechange.resources
+C:\Users\OHMLAP-0143\source\repos\MVCExample\MVCExample\obj\Debug\MVCExample.Migrations.courseaddition.resources

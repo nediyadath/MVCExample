@@ -21,5 +21,6 @@ namespace MVCExample.Models
         public DbSet<DiscountScheme> discountScheme { get; set; }
 
         public System.Data.Entity.DbSet<MVCExample.Models.Product> Products { get; set; }
+        public DbSet<Course> course { get; set; }
     }
 }

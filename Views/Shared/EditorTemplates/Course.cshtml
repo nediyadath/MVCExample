@@ -1,0 +1,12 @@
+﻿@model MVCExample.Models.Course
+
+@{
+    ViewBag.Title = "Course";
+}
+
+<div>
+    @Html.HiddenFor(x=>x.name)
+    @Html.CheckBoxFor(x=>x.check)
+    @Html.DisplayFor(x=>x.name)
+    <hr />
+</div>

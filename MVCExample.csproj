@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\DiscountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -200,8 +201,13 @@
     <Compile Include="Migrations\202112231934117_discountschemechange.Designer.cs">
       <DependentUpon>202112231934117_discountschemechange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112281504241_courseaddition.cs" />
+    <Compile Include="Migrations\202112281504241_courseaddition.Designer.cs">
+      <DependentUpon>202112281504241_courseaddition.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DiscountScheme.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -298,6 +304,10 @@
     <Content Include="Views\Discount\Create.cshtml" />
     <Content Include="Views\Discount\Edit.cshtml" />
     <Content Include="Views\Discount\Delete.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Course.cshtml" />
+    <Content Include="Views\Courses\ChooseCourse.cshtml" />
+    <Content Include="Views\Courses\Create.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112231627361_InitialCreate.resx">
@@ -314,6 +324,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112231934117_discountschemechange.resx">
       <DependentUpon>202112231934117_discountschemechange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112281504241_courseaddition.resx">
+      <DependentUpon>202112281504241_courseaddition.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
